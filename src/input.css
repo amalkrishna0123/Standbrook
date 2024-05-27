@@ -1,0 +1,92 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+@import url('https://fonts.googleapis.com/css2?family=Merienda:wght@300..900&family=Vollkorn:ital,wght@0,400..900;1,400..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&family=Merienda:wght@300..900&family=Vollkorn:ital,wght@0,400..900;1,400..900&display=swap');
+/* "Great Vibes", cursive */
+
+/* "Vollkorn", serif */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+li{
+    list-style: none;
+}
+header nav li,.baner-Title h3,.bannerquotesSpan1,.bannerquotesSpan1,.banner-para p,.banner-button1,.AboutUs h3,.ExploreTour-Para,.ExploreTour-Para1,.readmorebtn,.PhilippinesPara,.GalleryButton,.DestinationPara,.DestinationGallery,.TrailPara,.TrailText2,.HDPara,.LuxuryList,.MiceText,.MiceTexts,.Traveller,.Review,.BookWithUs,.BookWithUsPara,.StandBrookText,.Experiencetext,.collaburateWithUs,.NewsBlogs,.FrenchTitleText,.SigupText,.FooterText{
+    font-family:"Vollkorn", serif ;
+}
+.banner-quotes h1,.ExploreTours,.SSpecial,.DestinationTitle,.TrailTitle,.HappeningD,.LuxuryHoli,.WeExcel,.FeaturedTravellers,.WhyStandBrook,.AlianceTitle,.CollaburateWithUss,.AllureTrailsText,.SignUp{
+    font-family: 'Merienda', sans-serif;
+}
+.LuxuryHoli{
+    color: #1374C4;
+}
+.PhilippinesText{
+    font-family:"Great Vibes", cursive ;
+    color: #BBBBBB;
+}
+.Home-banner{
+    background: url(/src/images/Rectangle\ 7.png)  0% 0% no-repeat padding-box;
+    background-position: bottom;
+    background-size: cover;
+}
+.banner-Box{
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.banner-button1{
+    border: 1px solid var(--unnamed-color-ffffff);
+    background: transparent linear-gradient(237deg, #00AA9E 0%, #004D47 100%) 0% 0% no-repeat padding-box;
+    border: 1px solid #FFFFFF;
+    opacity: 1;
+}
+.grouppng{
+    background: transparent url('img/Group 818.png') 0% 0% no-repeat padding-box;
+    opacity: 1;
+}
+.readmorebtn{
+    background: #EE7C00 0% 0% no-repeat padding-box;
+}
+.philippinesbg{
+    background: url(/src/images/Union\ 2.png)  no-repeat;
+    background-size: cover;
+    background-position: bottom;
+}
+.GalleryCounty{
+    transform: translate(-50%,-50%);
+}
+.GalleryCountries{
+    transform: translate(-50%,-50%);
+}
+.GalleryButton{
+    background: #EE7C00 0% 0% no-repeat padding-box;
+}
+.inside-box,.inside-gallery2{
+    background-color: hsla(0, 0%, 100%, 0.779);
+    border: 0.2px solid #004D47;
+}
+.ViewMoreBtn{
+    background-color: #EE7C00;
+}
+.InterNational{
+    border: 0.2px solid #EE7C00;
+    font-size: 12px;
+}
+.HappeningDestinationBG{
+    background: url(/src/images/Rectangle\ 29.png);
+}
+.addbtn,.countrybtn{
+    transform: translate(-50%,-50%);
+    color: white;
+}
+/* .WhyStandBrook{
+    transform: translate(-50%,-10%);
+} */
+.FooterImg{
+    background-position: top;
+}
