@@ -13,6 +13,9 @@
     padding: 0;
     box-sizing: border-box;
 }
+html{
+    scroll-behavior: smooth;
+}
 li{
     list-style: none;
 }
@@ -89,4 +92,98 @@ header nav li,.baner-Title h3,.bannerquotesSpan1,.bannerquotesSpan1,.banner-para
 } */
 .FooterImg{
     background-position: top;
+}
+.NavbarList{
+    transition: all 0.3s ease-in-out;
+    cursor: pointer;
+}
+.NavbarList:hover{
+    color: #00AA9E;
+}
+.PhilippinesGall img{
+    transition: all 0.3s ease-in-out;
+    cursor: pointer;
+}
+.PhilippinesGall img:hover{
+    opacity: 0.1;
+}
+.LuxuryTable td{
+    transition: all 0.3s ease-in-out;
+    cursor: pointer;
+}
+.LuxuryTable td:hover{
+    color: #00AA9E;
+}
+.ExploreDestination{
+    transition: all 0.2s ease-in;
+    cursor: pointer;
+}
+.ExploreDestination:hover{
+    border: 2px solid #1374C4;
+}.HappeningGalleries {
+    cursor: pointer;
+    transition: all 0.2s ease-in;
+    position: relative;
+}
+.HappeningGalleries span,
+.HappeningGalleries h3 {
+    opacity: 0;
+    transition: opacity 0.2s ease-in;
+}
+.HappeningGalleries:hover span,
+.HappeningGalleries:hover h3 {
+    opacity: 1;
+}
+.NavBg{
+    /* display: ; */
+    backdrop-filter: blur(8px); 
+    background-color: rgba(255, 255, 255, 0.6);
+}
+.DisplayNone{
+    display: none;
+}
+@media screen and (min-width : 680px) {
+    .DisplayNone{
+        display: flex;
+    }
+    
+}
+@media screen and (min-width: 680px) {
+    .NavBg {
+        display: none;
+    }
+    .NavbarMenu{
+        display: none;
+    }
+    .Navbar1{
+        display: none;
+    }
+}
+@media screen and (max-width : 680px){
+    .logo{
+        display: none;
+    }
+    .Navbar2{
+        display: none;
+    }
+}
+@media screen and (min-width:680px){
+    .EndingFooter{
+        /* display: none; */
+    }
+}
+@media screen and (max-width:540px){
+    .OverflowProperty{
+        display: none;
+    }
+}
+@media screen and (min-width:680px){
+    .OverflowProperty{
+        display: block;
+    }
+}
+@media screen and (min-width : 680px){
+    .DisplayNone1{
+        display: none;
+    }
 }
